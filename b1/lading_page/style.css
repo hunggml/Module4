@@ -1,0 +1,51 @@
+.nav-link {
+    margin: 20px auto;
+    padding: 0;
+    width: auto;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    display: inline-block;
+    transition-property: transform;
+    transition: 0.25s ease;
+}
+
+.nav-link::after {
+    content: '';
+    border-top: 4px solid #ff1654;
+    width: 100%;
+    position: absolute;
+    display: block;
+    transform: rotateY(90deg);
+    transition: transform 0.25s linear;
+}
+
+.nav-link:hover {
+    transform: scale(1);
+}
+
+.nav-link:hover::after {
+    transform: rotate(0deg);
+}
+
+.carousel {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn {
+    background-color: #ff1654;
+    color: white;
+    border-bottom-width: 9px;
+    border-top-width: 9px;
+    padding-left: 36px;
+    padding-right: 36px;
+}
