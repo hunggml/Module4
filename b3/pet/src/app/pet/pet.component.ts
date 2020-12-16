@@ -8,16 +8,17 @@ import { Component, OnInit } from '@angular/core';
 export class PetComponent implements OnInit {
 
   constructor() { }
-  ngOnInit(): void {
-  }
+  
+  ngOnInit(): void { }
+
   petName = '';
   petImage = '';
 
-  updateName(name:string) {
+  updateName(name: string) {
     this.petName = name;
   }
 
-  updateImage(image:string) {
+  updateImage(image: string) {
     this.petImage = image;
   }
 
