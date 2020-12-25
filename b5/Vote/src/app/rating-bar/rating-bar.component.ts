@@ -1,4 +1,8 @@
 import { Component, EventEmitter, Input, OnInit, Output, SimpleChanges } from '@angular/core';
+interface IRatingUnit {
+  value: number;
+  active: boolean;
+}
 
 @Component({
   selector: 'app-rating-bar',

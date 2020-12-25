@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/VH-Project-MD4" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/b3/demo1" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/b6/demodemo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/demo-git/angular-component" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/laravel-api/Case-MD3-CarShop" vcs="Git" />
+  </component>
+</project>
